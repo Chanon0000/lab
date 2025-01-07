@@ -5,9 +5,9 @@
   tasks:
     - name: Creating the Container
       docker_container:
-         name: Team10ult-container #docker container name
-         image: Team10ult:latest #docker image name
+         name: Free-10-container #docker container name
+         image: Free-10:latest #docker image name
          ports:
-           - "60:80" #เลข port ตัวแรกคือเลข  port ที่รับมาจาก browser ตัวหลังคือ  port ของ docker (คงไว้ที่ 80 ถ้าเป็น nextjs project ก็ 3000)
+           - "59:80" #เลข port ตัวแรกคือเลข  port ที่รับมาจาก browser ตัวหลังคือ  port ของ docker (คงไว้ที่ 80 ถ้าเป็น nextjs project ก็ 3000)
          state: started
          restart: true
