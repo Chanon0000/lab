@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: Team10ult:latest #docker image name
+         name: Free-10:latest #docker image name
          source: build
          build:
-            path: ~/Team10ult #path ที่เก็บไฟล์ sourcecode 
+            path: ~/Free-10 #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
